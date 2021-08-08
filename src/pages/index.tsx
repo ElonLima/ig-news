@@ -5,7 +5,7 @@ import girlCodingSvg from "../../public/images/avatar.svg";
 
 import styles from "./home.module.scss";
 import { SubscribeButton } from "../components/SubscribeButton/index";
-import { stripe } from "../services/stipe";
+import { stripe } from "../services/stripe";
 
 interface HomeProps {
   product: {
